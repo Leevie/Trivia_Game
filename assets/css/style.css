@@ -1,36 +1,43 @@
 * {
     box-sizing: border-box;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 
 /* div {
     height: 100px;
 } */
 
+
 #left-column {
     height: 700px;
 }
 
+#nav-title{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
 #qstDiv {
-    height: 150px;
+    height: auto;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     margin: 0 auto;
+    border: 1px solid rebeccapurple;
 
 }
 
 #ansDiv {
     height: 400px;
+    padding: 30px 0;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+    background-image: url("/assets/images/Star-Wars-Wallpaper-HD-For-Desktop.jpg");
+
+
 }
 
-/* #button {
-    float: left;
-    clear: both;
-    position: relative;
-    margin: 0 auto;
-    top: 100px;
-} */
+
 
 #start {
     text-align: center;
